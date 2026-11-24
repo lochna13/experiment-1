@@ -1,0 +1,20 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+# Variables storing the details
+int main()
+{
+char name[ ] = "John Doe";
+int age = 16;
+char student_class[ ] = "11th";
+char division = ‘A’;
+char uin[ ] = "UIN12345678";
+
+# Printing the formatted output using escape sequences
+printf("==============================");
+printf("       STUDENT PROFILE        ")
+printf("==============================");
+printf(“Name=%s,age=%d,student_class=%s,division=%c,uin=%s”,name,age,student_class,division,uin);
+printf("==============================");
+}
